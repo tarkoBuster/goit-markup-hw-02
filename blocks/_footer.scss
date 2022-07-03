@@ -1,0 +1,43 @@
+.footer {
+  background: var(--main-background-color);
+  padding: 60px 0 0 215px;
+  min-height: 200px;
+  &_logo {
+    font-style: normal;
+    font-size: 26px;
+    line-height: 1.2;
+    font-family: "Raleway", sans-serif;
+    color: #000;
+    span {
+      color: var(--link-color);
+    }
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--title-text-color);
+    margin-top: 20px;
+  }
+  &_email {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  &_phone {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  &_portfolio {
+    color: var(--title-text-color);
+  }
+  address ul {
+    font-style: normal;
+  }
+}
